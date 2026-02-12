@@ -1,0 +1,85 @@
+body {
+    background-color:#F7DAE7;
+    
+}
+
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color:#D183A9 ;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 4px 10px 30px 1px ; 
+}
+
+.screen {
+    background-color: #000;
+    color: white;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    justify-content: flex-end; 
+    padding-right: 5px;
+    font-size: 40px;
+    text-align: right;
+    box-shadow: inset 0px 4px 8px rgba(0,0,0,0.2);
+    overflow-x: auto; /* Adds a scrollbar if text is too long */
+    white-space: nowrap;
+}
+
+.firstRow,
+.secondRow,
+.thirdRow,
+.fourthRow,
+.fifthRow {
+    display: flex;
+}
+
+button {
+    flex: 1;
+    height: 50px;
+    margin: 4px;
+    font-size: 18px;
+    border: none;
+    border-radius: 100px;
+    font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.1s;
+  background-color: #FFF0F5;
+    color: #D183A9;
+    box-shadow: 0px 4px 0px #E6C8D8;
+
+}
+
+#ac, #del, #mod {
+    background-color: #BDE0FE; /* Pastel Blue */
+    color: #4A6FA5;
+    box-shadow: 0px 4px 0px #9BB8D6;
+}
+
+#div, #multiply, #minus, #plus {
+    background-color: #FFC8DD; /* Pastel Pink */
+    color: #D65A8A;
+    box-shadow: 0px 4px 0px #E6Aac1;
+}
+
+#equal {
+    background-color: #FFC8DD;/* Pastel Purple */
+   color: #D65A8A;
+    box-shadow: 0px 4px 0px  #E6Aac1;
+}
+
+
+button:active {
+    transform: translateY(4px); 
+    box-shadow: 0px 0px 0px transparent; 
+}
+
+ 
